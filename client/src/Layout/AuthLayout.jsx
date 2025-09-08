@@ -11,7 +11,7 @@ const AuthLayout = ({ children }) => {
             <img src={appLogo} alt="app logo" className="w-full" />
           </Link>
         </div>
-        <section className="container min-h-screen flex justify-center  gap-20 mx-auto pt-10  pb-8 ">
+        <section className="container min-h-screen flex justify-center  gap-20 mx-auto pt-4  pb-1 ">
           {children}
         </section>
       </main>
